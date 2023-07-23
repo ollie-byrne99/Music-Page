@@ -16,8 +16,20 @@ body {
     font-size: 40px;
     text-align: center;
     color: var(--primary-text);
+    background-color: var(--secondary-grey);
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.heading {
+    display: inline-block;
+    background-color: var(--secondary-grey);
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+.heading:hover {
     background-color: var(--secondary-blue);
-    padding: 15px;
 }
 
 nav {
@@ -25,6 +37,7 @@ nav {
     justify-content: left;
     margin-bottom: 5px;
     margin-top: 5px;
+    padding-bottom: 15px;
 }
 
 a {
@@ -35,16 +48,16 @@ a {
     border-style: solid;
     border-color: #313639;
     justify-content: center;
-    background-color: var(--secondary-grey);
+    background-color: var(--secondary-blue);
     display: inline-block;
 }
 
 a:hover {
-    background-color: var(--secondary-blue);
+    background-color: var(--tertiary-blue);
 }
 
 a:active {
-    background-color: var(--tertiary-blue);
+    background-color: white;
 }
 
 .container {
@@ -56,27 +69,15 @@ main {
     padding: 20px;
 }
 
-.sidebar {
-    width: 250px;
-    background-color: var(--secondary-grey);
-    padding: 20px;
-    order: 1; 
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-
-.sidebar_heading {
-    text-align: center;
-}
-
 .row {
     display: flex;
+    background-color: var(--secondary-blue);
     justify-content: space-evenly;
     flex-wrap: wrap;
+    border-radius: 10px;
 }
 
 .row_item {
-    /* border-style: solid; */
     border-color: #313639;
     padding: 60px;
     margin: 15px;
@@ -90,6 +91,7 @@ main {
     position: absolute;
     top: 0;
     left: 0;
+    border-radius: 10px;
 }
 
 
@@ -106,7 +108,7 @@ main {
     font-size: 15px;
     padding: 5px;
     color: var(--primary-text);
-    background-color: var(--secondary-blue);
+    background-color: var(--secondary-grey);
 }
 
 
